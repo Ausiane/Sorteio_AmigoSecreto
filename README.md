@@ -1,9 +1,10 @@
-# Sorteio de Amigos 🎲  
-**Challenge Alura + ONE - Oracle Next Education**  
+# Sorteio de Amigos 🎲
+
+**Challenge Alura + ONE - Oracle Next Education**
 
 Um projeto desenvolvido como parte do Challenge Front-End da Alura em parceria com o programa ONE - Oracle Next Education. Projeto simples para sortear nomes de amigos de forma aleatória, desenvolvido em JavaScript puro, HTML e CSS.
 
-![Preview](https://img.shields.io/badge/Status-Concluído-green) 
+![Preview](https://img.shields.io/badge/Status-Concluído-green)
 ![Challenge](https://img.shields.io/badge/Parceria-Alura%20%2B%20ONE-orange)
 
 ![Demonstração do sorteio de amigos](https://cdn1.gnarususercontent.com.br/1/6770300/bc228724-9d53-4aec-a3af-bbee79867580.png)
@@ -22,11 +23,13 @@ Um projeto desenvolvido como parte do Challenge Front-End da Alura em parceria c
 ### Passo a Passo:
 
 1. **Adicione os nomes**:
+
    - Digite o nome no campo de entrada.
    - Clique em "Adicionar" (ou pressione Enter).
    - Nomes repetidos ou vazios serão bloqueados.
 
 2. **Visualize a lista**:
+
    - Os nomes aparecerão automaticamente na tela.
 
 3. **Realize o sorteio**:
@@ -36,7 +39,7 @@ Um projeto desenvolvido como parte do Challenge Front-End da Alura em parceria c
 ---
 
 ## Sobre o Challenge 🏆
+
 Este projeto foi desenvolvido como parte do programa de formação da Alura em parceria com o ONE - Oracle Next Education , um programa de educação e empregabilidade com objetivo de capacitar profissionais em tecnologia.
 
 [![Alura](https://www.alura.com.br/assets/img/home/alura-para-empresas.1730889067.svg?width=200)](https://www.alura.com.br/) [![ONE](https://www.oracle.com/a/ocom/img/rh03-one-br-logo.png?width=290)](https://www.oracle.com/br/education/oracle-next-education/)
-
