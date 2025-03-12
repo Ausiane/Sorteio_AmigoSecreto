@@ -1,0 +1,177 @@
+/* ========== VARIÁVEIS DE CORES ========== */
+:root {
+  --color-primary: #5299cc; /* Cor primária (azul principal) */
+  --color-secondary: #fff9eb; /* Cor secundária (fundo bege) */
+  --color-tertiary: #c4c4c4; /* Cor terciária (cinza para botões) */
+  --color-button: #fe652b; /* Laranja para botão de sorteio */
+  --color-button-hover: #e55720; /* Laranja escuro para hover */
+  --color-text: #444444; /* Cor principal do texto */
+  --color-white: #ffffff; /* Branco puro */
+}
+
+/* ========== RESET E ESTILOS GERAIS ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Modelo de caixa consistente */
+}
+
+body {
+  height: 100vh; /* Altura total da viewport */
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center; /* Centralização horizontal */
+  align-items: center; /* Centralização vertical */
+}
+
+/* ========== LAYOUT PRINCIPAL ========== */
+.main-content {
+  display: flex;
+  flex-direction: column; /* Disposição vertical */
+  height: 100%; /* Ocupa altura total do body */
+  width: 100%;
+}
+
+/* ========== CABEÇALHO/BANNER ========== */
+.header-banner {
+  flex: 40%; /* Ocupa 40% do espaço vertical */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 0; /* Espaçamento superior */
+}
+
+/* ========== SEÇÃO DE ENTRADA ========== */
+.input-section {
+  flex: 60%; /* Ocupa 60% do espaço vertical */
+  background-color: var(--color-secondary);
+  border: 1px solid #000;
+  border-radius: 64px 64px 0 0; /* Bordas arredondadas apenas no topo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* ========== TIPOGRAFIA ========== */
+.main-title {
+  font-size: 48px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--color-white);
+}
+
+.section-title {
+  font-family: "Inter", serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* ========== FORMULÁRIO ========== */
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px; /* Largura máxima para responsividade */
+  margin-top: 20px;
+}
+
+.input-name {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 25px 0 0 25px; /* Bordas arredondadas à esquerda */
+  font-size: 16px;
+}
+
+.button-container {
+  width: 300px;
+  justify-content: center;
+}
+
+/* ========== CAMPO DE ENTRADA ========== */
+.input-title {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-right: none; /* Remove borda direita para alinhar com botão */
+  border-radius: 25px 0 0 25px;
+  font-family: "Merriweather", serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+/* ========== BOTÕES ========== */
+button {
+  padding: 15px 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.button-add {
+  background-color: var(--color-tertiary);
+  color: var(--color-text);
+  border-radius: 0 25px 25px 0; /* Bordas arredondadas à direita */
+}
+
+.button-add:hover {
+  background-color: #a1a1a1; /* Efeito hover claro */
+}
+
+.button-add:active {
+  background-color: var(--color-button-hover);
+  color: var(--color-white);
+}
+
+/* ========== CORREÇÃO DE ESTILO ========== */
+.button-add.click-effect {
+  background-color: var(--color-button-hover) !important;
+  color: var(--color-white) !important;
+  transform: scale(0.98); /* Efeito de clique */
+  transition: all 0.2s; /* Transição suave */
+}
+
+/* ========== LISTA DE RESULTADOS ========== */
+ul {
+  list-style-type: none; /* Remove marcadores padrão */
+  color: var(--color-text);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.result-list {
+  margin-top: 15px;
+  color: #05df05; /* Verde para feedback positivo */
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ========== BOTÃO DE SORTEIO ========== */
+.button-draw {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 40px;
+  color: var(--color-white);
+  background-color: var(--color-button);
+  font-size: 16px;
+}
+
+.button-draw img {
+  margin-right: 40px; /* Espaçamento para ícone */
+}
+
+.button-draw:hover {
+  background-color: var(--color-button-hover);
+}
