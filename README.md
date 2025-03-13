@@ -2,6 +2,8 @@
 
 **Challenge Alura + ONE - Oracle Next Education**
 
+https://ausiane.github.io/Sorteio_AmigoSecreto/
+
 Um projeto desenvolvido como parte do Challenge Front-End da Alura em parceria com o programa ONE - Oracle Next Education. Projeto simples para sortear nomes de amigos de forma aleatória, desenvolvido em JavaScript puro, HTML e CSS.
 
 ![Preview](https://img.shields.io/badge/Status-Concluído-green)
