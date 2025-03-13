@@ -45,3 +45,5 @@ Um projeto desenvolvido como parte do Challenge Front-End da Alura em parceria c
 Este projeto foi desenvolvido como parte do programa de formação da Alura em parceria com o ONE - Oracle Next Education , um programa de educação e empregabilidade com objetivo de capacitar profissionais em tecnologia.
 
 [![Alura](https://www.alura.com.br/assets/img/home/alura-para-empresas.1730889067.svg?width=200)](https://www.alura.com.br/) [![ONE](https://www.oracle.com/a/ocom/img/rh03-one-br-logo.png?width=290)](https://www.oracle.com/br/education/oracle-next-education/)
+
+![Descrição da imagem](https://cdn1.gnarususercontent.com.br/6/409216/ff043987-239b-4661-bdb1-7f4ca6092c48.png)
